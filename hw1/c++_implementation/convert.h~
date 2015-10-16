@@ -1,0 +1,8 @@
+#include <string>
+
+class Convert
+{
+public:
+  int convert(int,int);
+  int recursiveConvert(int,int,int);
+};

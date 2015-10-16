@@ -1,0 +1,18 @@
+#include <string>
+using namespace std;
+class CAI {
+
+ public:
+  CAI();
+  void startTest();
+
+ private:
+  void printRandomGoodJob();
+  void printRandomEncouragementMessage();
+  void askRandomMultiplicationQuestion();
+  void askRandomDivisionQuestion();
+  int chooseRandomNumber();
+  void printTestSummary();
+  int firstTries;
+  int wrongGuesses;
+};

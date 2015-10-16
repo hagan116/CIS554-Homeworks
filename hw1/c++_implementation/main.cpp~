@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string>
+#include "convert.h"
+
+int main() {
+
+  using std::cout;
+  using std::cin;
+  using std::endl;
+  
+  int number;
+  int base;
+
+  // Prompt for user input
+  cout << "Please enter a number: ";
+  cin >> number; // Store the entered value in number
+  cout << "Please enter its base: ";
+  cin >> base; // Store the entered value in base
+  
+  Convert c;
+
+  int answer = c.convert(number,base); // Convert
+  //int answer = c.recursiveConvert(number,base,0); //alternative convert
+  
+  cout << "Answer: " << answer << endl;// Display answer
+
+
+  return 0;
+}

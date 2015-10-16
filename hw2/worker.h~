@@ -1,0 +1,16 @@
+#include <string>
+
+class Worker{
+
+ public:
+  Worker();
+  void calculatePay();
+  void addHourly();
+  void addManager();
+  void addCommission();
+  void addPiece();
+ private:
+  int hourlyPay, managerPay, commissionPay, piecePay;
+  void printChart();
+
+};

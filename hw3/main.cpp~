@@ -1,0 +1,7 @@
+#include "cai.h"
+
+int main(){
+  CAI c;
+  c.startTest();
+  return 0;
+}
